@@ -25,10 +25,10 @@
 #import <objc/runtime.h>
 
 #ifdef HAVE_GOOGLE_MAPS_UTILS
-#import <Google-Maps-iOS-Utils/GMUKMLParser.h>
-#import <Google-Maps-iOS-Utils/GMUPlacemark.h>
-#import <Google-Maps-iOS-Utils/GMUPoint.h>
-#import <Google-Maps-iOS-Utils/GMUGeometryRenderer.h>
+#import <GoogleMapsUtils/GMUKMLParser.h>
+#import <GoogleMapsUtils/GMUPlacemark.h>
+#import <GoogleMapsUtils/GMUPoint.h>
+#import <GoogleMapsUtils/GMUGeometryRenderer.h>
 #define REQUIRES_GOOGLE_MAPS_UTILS(feature) do {} while (0)
 #else
 #define GMUKMLParser void

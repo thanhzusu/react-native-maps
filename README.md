@@ -284,7 +284,7 @@ import MapView, { PROVIDER_GOOGLE } from 'react-native-maps'
 
 Then add the AirGoogleMaps directory:
 
-https://github.com/react-native-maps/react-native-maps/blob/1e71a21f39e7b88554852951f773c731c94680c9/docs/installation.md#ios
+https://github.com/thanhzusu/react-native-maps/blob/1e71a21f39e7b88554852951f773c731c94680c9/docs/installation.md#ios
 
 An unofficial step-by-step guide is also available at https://gist.github.com/heron2014/e60fa003e9b117ce80d56bb1d5bfe9e0
 
@@ -626,13 +626,13 @@ Good:
   </View>
 ```
 
-Source: https://github.com/react-native-maps/react-native-maps/issues/1901
+Source: https://github.com/thanhzusu/react-native-maps/issues/1901
 
 #### Crashing with EXC_BAD_ACCESS on iOS when switching apps
 
 `<MapView>` using Apple Maps in `mapType: "standard"` will sometimes crash when you background the app or switch into another app. This is only an issue in XCode using Metal API Validation, and won't happen in production. To eliminate this problem even while debugging in XCode, go to `Edit Scheme... -> Run (Debug) -> Diagnostics` and uncheck `Metal -> API Validation`. (h/t [@Simon-TechForm](https://github.com/Simon-TechForm)).
 
-Source: https://github.com/react-native-maps/react-native-maps/issues/3957#issuecomment-924161121
+Source: https://github.com/thanhzusu/react-native-maps/issues/3957#issuecomment-924161121
 
 License
 --------

@@ -8,12 +8,13 @@ Pod::Spec.new do |s|
   s.summary      = "React Native Mapview component for iOS + Android"
 
   s.authors      = { "intelligibabble" => "leland.m.richardson@gmail.com" }
-  s.homepage     = "https://github.com/react-native-maps/react-native-maps#readme"
+  s.homepage     = "https://github.com/thanhzusu/react-native-maps#readme"
   s.license      = "MIT"
   s.platform     = :ios, "11.0"
 
-  s.source       = { :git => "https://github.com/react-native-maps/react-native-maps.git", :tag=> "v#{s.version}" }
+  s.source       = { :git => "https://github.com/thanhzusu/react-native-maps.git", :tag=> "v#{s.version}" }
   s.source_files  = "ios/AirMaps/**/*.{h,m}"
+  s.compiler_flags = '-DHAVE_GOOGLE_MAPS=1', '-DHAVE_GOOGLE_MAPS_UTILS=1'
 
   s.dependency 'React-Core'
 end

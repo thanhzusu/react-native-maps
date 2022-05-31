@@ -22,7 +22,7 @@ For bug reports, it is REQUIRED to fill the rest of this template, or the issue 
 Before submitting a new issue, please:
 
 - Test using the latest release of the library, as maybe your bug has been already fixed.
-- Check the existing [Issues](https://github.com/react-native-maps/react-native-maps/issues?q=is%3Aissue) or on StackOverflow if there isn't a fix already for your problem.
+- Check the existing [Issues](https://github.com/thanhzusu/react-native-maps/issues?q=is%3Aissue) or on StackOverflow if there isn't a fix already for your problem.
 
 Make sure you have followed the [Installation Instructions](https://github.com/react-community/react-native-maps/blob/master/docs/installation.md) too.
 

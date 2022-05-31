@@ -115,7 +115,7 @@ enableLatestRenderer();
 
 `enableLatestRenderer` returns a promise (on android) specifying the map renderer being used, either `'LATEST' | 'LEGACY'`. It can be called at any point to get the renderer being used, but it won't change after the first map has been rendered.
 
-Make sure to test your app thoroughly after enabling the new renderer, as it seems to cause some behavioural changes, e.g. [this](https://github.com/react-native-maps/react-native-maps/pull/4055#issuecomment-1063358886).
+Make sure to test your app thoroughly after enabling the new renderer, as it seems to cause some behavioural changes, e.g. [this](https://github.com/thanhzusu/react-native-maps/pull/4055#issuecomment-1063358886).
 
 ---
 
@@ -134,7 +134,7 @@ project from the URLs below:
 - [Google Maps SDK Android](https://console.developers.google.com/apis/library/maps-android-backend.googleapis.com/)
 - [Google Maps SDK iOS (if required)](https://console.developers.google.com/apis/library/maps-ios-backend.googleapis.com)
 
-For reference, you may read the relevant issue reports: ([#118](https://github.com/react-native-maps/react-native-maps/issues/118), [#176](https://github.com/react-native-maps/react-native-maps/issues/176), [#684](https://github.com/react-native-maps/react-native-maps/issues/684)).
+For reference, you may read the relevant issue reports: ([#118](https://github.com/thanhzusu/react-native-maps/issues/118), [#176](https://github.com/thanhzusu/react-native-maps/issues/176), [#684](https://github.com/thanhzusu/react-native-maps/issues/684)).
 
 ### The map background is gray (Google Maps)
 
